@@ -1,2 +1,27 @@
+# Dữ liệu huấn luyện thật (chứa đoạn chat & địa chỉ khách — KHÔNG đưa lên git)
 tools/train/data/
 tools/train/__pycache__/
+tools/train/*.jsonl
+!tools/train/sample_export.jsonl
+benoc-huan-luyen-*.jsonl
+
+# Báo cáo doanh thu xuất ra từ Quản lý
+BaoCao_BeNoc_*.xlsx
+
+# Biến môi trường, khoá bí mật cục bộ (Supabase / Cloudflare / IDE)
+.env
+.env.*
+.dev.vars
+supabase/.temp/
+supabase/.branches/
+
+# File tạm hệ điều hành / trình soạn thảo / Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+
